@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="styleProducts.css" />
+</head>
+<body>
+    <header>
+        <a href="../home.html" class="logo">perfumes<span>.</span></a>
+        <nav class="navbar">
+            <a href="../home.html">home</a>
+            <a href="../about.html">about</a>
+            <a href="../products.html">products</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="../cart.html" class="fas fa-shopping-cart"></a>
+            <a href="../account.html" class="fas fa-user"></a>
+            <a href="#menu" class="fa-solid fa-bars"></a>
+        </div>
+    </header>
+    <section>
+        <div class="container"> 
+            <div class="container-image"> 
+                    <img id="perfume-image" src="images/libre intense.jpg" alt="Luxury Perfume">
+                    <div class="image-thumbnails">
+                        <img src="images/libre intense.jpg" alt="Thumbnail 2" onclick="changeImage('images/libre intense.jpg')">
+                        <img src="images/refill.webp" alt="Thumbnail 1" onclick="changeImage('images/refill.webp')">
+                        <img src="images/libre3.jpg" alt="Thumbnail 2" onclick="changeImage('images/libre3.jpg')">
+                    </div>
+                </div>
+                
+          
+            <div class="container-description">
+                <div class="description">
+                    <h2>Yves Saint Laurent Libre Intense</h2>
+                    <p>Discover the scent of luxury. This perfume combines exquisite notes of jasmine, rose, and cedarwood to create a timeless aroma that captivates and enchants.</p>
+                    <div class="quantity">
+                        <label for="quantity-perfume">Quantity:</label>
+                        <select id="quantity-perfume" name="quantity-perfume" class="quantity-select">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="size">
+                        <label for="size-perfume">Size:</label>
+                        <select id="size-perfume" name="size-perfume" class="size-select">
+                            <option value="30">30ml</option>
+                            <option value="50">50ml</option>
+                            <option value="100">100ml</option>
+                        </select>
+                    </div>
+                    <div class="price"><span class="price-value">130</span>lv</div>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+                <div class="review">
+                    <h3>Reviews</h3>
+                    <p>★★★★★ Yves Saint Laurent's Libre Intense is a captivating fragrance that exudes confidence and sophistication. </p>
+                    <p>★★★★☆The blend of lavender and orange blossom creates a bold floral scent, while the vanilla and ambergris add a touch of warmth and sensuality. </p>
+                    <p>★★★★★The scent is fresh and sophisticated, ideal for any occasion, whether it’s a day at the office or a night out.</p>
+                    <p>★★★★☆This perfume lasts all day, making it perfect for both work and evening occasions.</p>
+                    <p>★★★★★ I absolutely love this scent! It lasts all day and I get so many compliments. - Jane Doe</p>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="products.js"></script>
+</body>
+</html>

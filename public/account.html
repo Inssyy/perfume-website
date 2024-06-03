@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="styleAccount.css" />
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <a href="home.html" class="logo">perfumes<span>.</span></a>
+    
+        <nav class="navbar">
+          <a href="home.html">home</a>
+          <a href="#footer">about</a>
+          <a href="products.html">products</a>
+          <a href="#footer">contact</a>
+        </nav>
+    
+        <div class="icons">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="cart.html" class="fas fa-shopping-cart"></a>
+          <a href="account.html" class="fas fa-user"></a>
+          <a href="#menu" class="fa-solid fa-bars"></a>
+        </div>
+    </header>  
+
+    <section>
+        <div class="container">
+            <div class="signin-login">
+                <form action="" class="sign-up">
+                    <h2 class="title">Create Account</h2>
+                    <h3>Your name</h3>
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Full Name">
+                    </div>
+                    <h3>Email Address</h3>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" placeholder="Enter valid Email Address">
+                    </div>
+                    <h3>Password</h3>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="text" placeholder="At least 6 characters">
+                    </div>
+                    <h3>Confirm Password</h3>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="text" placeholder="Re-enter Password">
+                    </div>
+                    <input type="submit" value="Sign up now" class="btn">
+                    <p class="social-text">Or Sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </form>
+
+                <form action="" class="sign-in">
+                    <h2 class="title">Sign In</h2>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" placeholder="Email Address">
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="text" placeholder="Password">
+                    </div>
+                    <input type="submit" value="Login" class="btn">
+                    <p class="social-text">Or Sign in with social platform</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+            <div class="panels-container">
+                <div class="panel left-panel">
+                    <div class="content">
+                        <h3>Create your account</h3>
+                        <button class="btn" id="sign-in-btn">Sign up</button>
+                    </div>
+                    <img src="images/Mobile-login.svg" class="image" alt="Sign in image">
+                </div>
+                <div class="panel right-panel">
+                    <div class="content">
+                        <h3>Already have an account?</h3>
+                        <button class="btn" id="sign-up-btn">Sign in</button>
+                    </div>
+                        
+                    <img src="images/4957136.svg" class="image" alt="Sign up image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>

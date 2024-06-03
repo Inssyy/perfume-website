@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="styleProducts.css" />
+</head>
+<body>
+    <header>
+        <a href="../home.html" class="logo">perfumes<span>.</span></a>
+        <nav class="navbar">
+            <a href="../home.html">home</a>
+            <a href="../about.html">about</a>
+            <a href="../products.html">products</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="../cart.html" class="fas fa-shopping-cart"></a>
+            <a href="../account.html" class="fas fa-user"></a>
+            <a href="#menu" class="fa-solid fa-bars"></a>
+        </div>
+    </header>
+    <section>
+        <div class="container"> 
+            <div class="container-image"> 
+                    <img id="perfume-image" src="images/jadore.png" alt="Luxury Perfume">
+                    <div class="image-thumbnails">
+                        <img src="images/jadore.png" alt="Thumbnail 2" onclick="changeImage('images/jadore.png')">
+                        <img src="images/jadore3.jpg" alt="Thumbnail 1" onclick="changeImage('images/jadore3.jpg')">
+                        <img src="images/jadore2.webp" alt="Thumbnail 2" onclick="changeImage('images/jadore2.webp')">
+                    </div>
+                </div>
+                
+          
+            <div class="container-description">
+                <div class="description">
+                    <h2>Dior J'adore</h2>
+                    <p>Discover the scent of luxury. This perfume combines exquisite notes of jasmine, rose, and cedarwood to create a timeless aroma that captivates and enchants.</p>
+                    <div class="quantity">
+                        <label for="quantity-perfume">Quantity:</label>
+                        <select id="quantity-perfume" name="quantity-perfume" class="quantity-select">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="size">
+                        <label for="size-perfume">Size:</label>
+                        <select id="size-perfume" name="size-perfume" class="size-select">
+                            <option value="30">30ml</option>
+                            <option value="50">50ml</option>
+                            <option value="100">100ml</option>
+                        </select>
+                    </div>
+                    <div class="price"><span class="price-value">150</span>lv</div>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+                <div class="review">
+                    <h3>Reviews</h3>
+                    <p>★★★★★ Dior J’adore is a timeless classic that has earned its place in the pantheon of iconic fragrances.</p>
+                    <p>★★★★☆This perfume is a perfect balance of floral notes, with jasmine, rose, and ylang-ylang creating a delicate yet powerful aroma.</p>
+                    <p>★★★★★The scent is fresh and sophisticated, ideal for any occasion, whether it’s a day at the office or a night out.</p>
+                    <p>★★★★☆J’adore is incredibly long-lasting, and its elegant bottle design is a beautiful addition to any vanity. It's a versatile fragrance that appeals to women of all ages.</p>
+                    <p>★★★★★ I absolutely love this scent! It lasts all day and I get so many compliments. - Jane Doe</p>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="products.js"></script>
+</body>
+</html>

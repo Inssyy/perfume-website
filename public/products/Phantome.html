@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="styleProducts.css" />
+</head>
+<body>
+    <header>
+        <a href="../home.html" class="logo">perfumes<span>.</span></a>
+        <nav class="navbar">
+            <a href="../home.html">home</a>
+            <a href="../about.html">about</a>
+            <a href="../products.html">products</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="../cart.html" class="fas fa-shopping-cart"></a>
+            <a href="../account.html" class="fas fa-user"></a>
+            <a href="#menu" class="fa-solid fa-bars"></a>
+        </div>
+    </header>
+    <section>
+        <div class="container"> 
+            <div class="container-image"> 
+                    <img id="perfume-image" src="images/rabanne-Phantom.jpg" alt="Luxury Perfume">
+                    <div class="image-thumbnails">
+                        <img src="images/rabanne-Phantom.jpg" alt="Thumbnail 2" onclick="changeImage('images/rabanne-Phantom.jpg')">
+                        <img src="images/rabanne.webp" alt="Thumbnail 1" onclick="changeImage('images/rabanne.webp')">
+                        <img src="images/paco.jpg" alt="Thumbnail 2" onclick="changeImage('images/paco.jpg')">
+                    </div>
+                </div>
+                
+          
+            <div class="container-description">
+                <div class="description">
+                    <h2>Paco Rabanne Phantom</h2>
+                    <p>The scent is a mix of lavender, lemon, and woody vanilla, creating a fresh and vibrant aroma that is perfect for the modern man.</p>
+                    <div class="quantity">
+                        <label for="quantity-perfume">Quantity:</label>
+                        <select id="quantity-perfume" name="quantity-perfume" class="quantity-select">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="size">
+                        <label for="size-perfume">Size:</label>
+                        <select id="size-perfume" name="size-perfume" class="size-select">
+                            <option value="30">30ml</option>
+                            <option value="50">50ml</option>
+                            <option value="100">100ml</option>
+                        </select>
+                    </div>
+                    <div class="price"><span class="price-value">105</span>lv</div>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+                <div class="review">
+                    <h3>Reviews</h3>
+                    <p>★★★★★ Paco Rabanne Phantom is a modern and innovative fragrance that blends traditional notes with cutting-edge technology. </p>
+                    <p>★★★★☆The fragrance is long-lasting and has a good projection without being too overwhelming. </p>
+                    <p>★★★★★The scent is fresh and sophisticated, ideal for any occasion, whether it’s a day at the office or a night out.</p>
+                    <p>★★★★☆The robot-shaped bottle is a fun and futuristic touch that sets it apart from other perfumes. However, some might find the scent a bit too synthetic for their taste.</p>
+                    
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="products.js"></script>
+</body>
+</html>

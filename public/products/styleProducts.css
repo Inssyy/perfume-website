@@ -1,0 +1,142 @@
+:root{
+    --pink:#e84393;
+ }
+ *{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    background: #f8eee3;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+
+
+}
+header .logo{
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+}
+
+header .logo span{
+    color: var(--pink)
+
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #666;
+
+}
+
+header .navbar a:hover{
+    color:var(--pink);
+
+}
+.fa-bars{
+    display: none;
+}
+
+
+header .icons a{
+    font-size: 2.5rem;
+    color: #bd2323;
+    margin-left: 1.5rem;
+
+}
+
+header .icons a:hover{
+    color: var(--pink);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background: #f8eee3;
+}
+section{
+    padding-top: 100px;
+}
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+.container-image {
+    flex: 1; 
+    padding-top: 2rem; 
+    padding-left: 2rem;
+    padding-bottom: 2rem; 
+    height: auto; 
+}
+
+.container-description {
+    flex: 2; 
+    padding: 20px;
+}
+.price-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000; 
+}
+img{
+    height: 40rem;
+    width: 36rem;
+}
+.image-thumbnails {
+    display: flex;
+    justify-content: center; 
+}
+
+.image-thumbnails img {
+    width: 80px; 
+    height: auto; 
+    margin: 5px 10px; 
+}
+
+.description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 2;
+}
+.add-to-cart {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.review {
+    margin-top: 30px;
+    color:#58552e
+}
+p{
+    margin-top: 12px;
+}
